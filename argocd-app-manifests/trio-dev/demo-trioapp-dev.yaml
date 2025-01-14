@@ -13,7 +13,7 @@ spec:
     namespace: demo-dev
   source:
     path: trioapp-dev
-    repoURL: https://github.com/codefresh-sandbox/demo-trioapps.git
+    repoURL: https://github.com/codefresh-sandbox/codefresh-quickstart-demo.git
     targetRevision: main
   syncPolicy:
     automated:
