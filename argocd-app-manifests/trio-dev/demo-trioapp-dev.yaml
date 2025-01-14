@@ -12,7 +12,7 @@ spec:
     name: in-cluster
     namespace: demo-dev
   source:
-    path: trioapp-dev
+    path: demo-applications/trioapp-dev
     repoURL: https://github.com/codefresh-sandbox/codefresh-quickstart-demo.git
     targetRevision: main
   syncPolicy:

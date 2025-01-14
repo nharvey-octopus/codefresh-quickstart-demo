@@ -12,8 +12,8 @@ spec:
     name: in-cluster
     namespace: demo-prod-asia
   source:
-    path: trioapp-prod-asia
-    repoURL: https://github.com/codefresh-sandbox/demo-trioapps.git
+    path: demo-applications/trioapp-prod-asia
+    repoURL: https://github.com/codefresh-sandbox/codefresh-quickstart-demo.git
     targetRevision: main
   syncPolicy:
     automated:
