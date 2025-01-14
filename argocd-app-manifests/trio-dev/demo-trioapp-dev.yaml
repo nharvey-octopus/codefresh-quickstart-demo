@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: demo-trioapp-dev
+  name: trio-dev
   finalizers:
     - resources-finalizer.argocd.argoproj.io/foreground
   annotations:
